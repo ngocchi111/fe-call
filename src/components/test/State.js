@@ -8,7 +8,7 @@ import Peer from "simple-peer";
 
 //import VideoContext from "./videoContext";
 
-const URL = "http://localhost:5000/";
+const URL = "https://apinc.herokuapp.com/";
 export const socket = io(URL);
 
 function State({children}){
